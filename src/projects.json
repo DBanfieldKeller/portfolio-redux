@@ -1,0 +1,51 @@
+[
+    {
+    "id": 1,
+    "name": "Virtual Escape Room App",
+    "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/escape.PNG",
+    "github": "https://github.com/DBanfieldKeller/virtual-escape-room",
+    "deploy": "https://virtual-escape-room-mikeyboxx.herokuapp.com/",
+    "topics": "MERN, node-js, express-js, mongoDB, react, react-app-bootstrap, graphQL, state"
+    },
+    {
+    "id": 2,
+    "name": "Restaurant Menu App",
+    "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/lucariosscreenshot.jpg",
+    "github": "https://github.com/DBanfieldKeller/restaurant-menu",
+    "deploy": "https://xyz-restaurant.herokuapp.com/",
+    "topics": "HTML, CSS, Javascript, Handlebars, node-js, express-js, MySQL, Sequelize, Heroku"
+    },
+    {
+    "id": 3,
+    "name": "Text Editor PWA",
+    "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/texteditorPWA.PNG",
+    "github": "https://github.com/DBanfieldKeller/pwa-party",
+    "deploy": "https://mysterious-badlands-95263.herokuapp.com/",
+    "topics": "node-js, express-js Babel, Webpack, PWA, IndexDB, Heroku"
+    },
+    {
+    "id": 4,
+    "name": "Weather Dashboard",
+    "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/weatherdash.png",
+    "github": "https://github.com/DBanfieldKeller/Weather-Dashboard",
+    "deploy": "https://dbanfieldkeller.github.io/Weather-Dashboard/",
+    "topics": "Javascript, jQuery, HTML, Bootstrap, Moment, API"
+    },
+    {
+    "id": 5,
+    "name": "Javascript Quiz Game",
+    "image": "https://github.com/DBanfieldKeller/react-portfolio/raw/main/src/assets/quizgame.png",
+    "github": "https://github.com/DBanfieldKeller/Quiz-Game",
+    "deploy": "https://dbanfieldkeller.github.io/Quiz-Game/",
+    "topics": "HTML, CSS, Javascript"
+      },
+    {
+    "id": 6,
+    "name": "Work Day Scheduler",
+    "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/workdayscheduler.png",
+    "github": "https://github.com/DBanfieldKeller/work-day-scheduler",
+    "deploy": "https://dbanfieldkeller.github.io/work-day-scheduler/",
+    "topics": "HTML, Javascript, Bootstrap, CSS, jQuery, Moment"
+    }
+  
+]

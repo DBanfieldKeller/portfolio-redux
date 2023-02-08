@@ -1,8 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
 };
 
 .heropic {
-  max-width: 50%;
+  max-width: 100%;
 }
