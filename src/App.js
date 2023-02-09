@@ -2,6 +2,7 @@ import React , {useState} from "react";
 import Navbar from './components/Navigation';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import AboutMe from "./components/AboutMe";
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
       <Header />
       <Navbar />
       <Hero />
-      
+      <AboutMe />
       <h1>Hello World!</h1>
     </div>
   );

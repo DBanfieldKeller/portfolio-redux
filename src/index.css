@@ -5,6 +5,8 @@
 .hero {
   display: flex;
   flex-direction: column;
+  align-self: center;
+
 };
 
 .heropic {
@@ -18,7 +20,8 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .hero {
-    width: 50%
+    width: 50%;
+    padding: 30px
   }
 }
 
@@ -28,9 +31,13 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .hero {
-    width: 25%
+    width: 30%
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+  .hero {
+    width: 25%;
+  }
+}
