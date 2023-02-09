@@ -2,8 +2,8 @@ import React , {useState} from "react";
 import Navbar from './components/Navigation';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import AboutMe from "./components/AboutMe";
-
+import AboutMe from './components/AboutMe';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <AboutMe />
-      <h1>Hello World!</h1>
+      <Footer />
     </div>
   );
 }
