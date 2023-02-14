@@ -11,6 +11,7 @@ function App() {
       <Header />
       <Navbar />
       <Hero />
+      <p>Add Current Page Here</p>
       <AboutMe />
       <Footer />
     </div>
