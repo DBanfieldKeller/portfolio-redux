@@ -4,14 +4,18 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
+import CurrentPage from "./components/CurrentPage";
 
 function App() {
+  const [currentPageState, setPage] = useState(
+    'AboutMe'
+  )
   return (
     <div className="App">
       <Header />
-      <Navbar />
+      <Navbar setPage={setPage} currentPageState={currentPageState}/>
       <Hero />
-      <p>Add Current Page Here</p>
+      <CurrentPage currentPageState={currentPageState} />
       <AboutMe />
       <Footer />
     </div>
