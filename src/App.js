@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
 import CurrentPage from "./components/CurrentPage";
+import Projects from "./components/Projects";
 
 function App() {
   const [currentPageState, setPage] = useState(
@@ -15,8 +16,7 @@ function App() {
       <Header />
       <Navbar setPage={setPage} currentPageState={currentPageState}/>
       <Hero />
-      <CurrentPage currentPageState={currentPageState} />
-      <AboutMe />
+      <Projects />
       <Footer />
     </div>
   );
