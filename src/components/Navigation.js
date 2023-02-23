@@ -12,7 +12,7 @@ function Navigation() {
     <>
         <Navbar key='md' bg="light" expand='md' className="mb-3">
           <Container fluid>
-            <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+            <Navbar.Brand href="#">Full Stack Web Developer</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-$'md'`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-$'md'`}
@@ -26,8 +26,10 @@ function Navigation() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">Link</Nav.Link>
+                  <Nav.Link href="#action1">About Me</Nav.Link>
+                  <Nav.Link href="#action2">Projects</Nav.Link>
+                  <Nav.Link href="#action2">Contact Me</Nav.Link>
+                  <Nav.Link href="#action2">Resume</Nav.Link>
                   <NavDropdown
                     title="Dropdown"
                     id={`offcanvasNavbarDropdown-expand-$'md'`}
