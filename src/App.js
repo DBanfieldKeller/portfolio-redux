@@ -1,11 +1,10 @@
 import React , {useState} from "react";
-import Navbar from './components/Navigation';
+import Navigation from './components/Navigation';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
 import CurrentPage from "./components/CurrentPage";
-import Projects from "./components/Projects";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [currentPageState, setPage] = useState(
@@ -14,9 +13,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Navbar setPage={setPage} currentPageState={currentPageState}/>
+      <Navigation/>
       <Hero />
-      <Projects />
       <Footer />
     </div>
   );
