@@ -15,8 +15,10 @@ function Projects() {
     })
     console.log(cards)
     return(
-        <Container>
+        <Container fluid="sm">
+            <Row xs={1}>
             {cards}
+            </Row>
         </Container>
     )
 };
