@@ -3,6 +3,8 @@ import Navigation from './components/Navigation';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
+import ProjectCard from './components/Card'
+import Projects from "./components/Projects";
 import CurrentPage from "./components/CurrentPage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,7 +16,7 @@ function App() {
     <div className="App">
       <Header />
       <Navigation/>
-      <Hero />
+      <Projects />
       <Footer />
     </div>
   );

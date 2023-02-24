@@ -31,17 +31,12 @@ function Navigation() {
                   <Nav.Link href="#action2">Contact Me</Nav.Link>
                   <Nav.Link href="#action2">Resume</Nav.Link>
                   <NavDropdown
-                    title="Dropdown"
+                    title="Quick Links"
                     id={`offcanvasNavbarDropdown-expand-$'md'`}
                   >
-                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      Another action
-                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action3">Github</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                      Something else here
-                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#action4">LinkedIn</NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
               </Offcanvas.Body>

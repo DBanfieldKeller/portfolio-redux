@@ -1,24 +1,22 @@
 import React from "react";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 
 // Individual Card build-out using props
-function Card(props) {
-    return (
-      <div className="card container"> 
-        <div className="container">
-          <img className="img-fluid" alt={props.name} src={props.image}/>
-        </div>
-        <div className="content">
-              <h3 className="project-title" id="card-title">{props.name}</h3>
-              <p>
-              <a href={props.github}><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Repository" id="project-icon"/></a> 
-              <a href={props.deploy}><img src="https://img.icons8.com/color/48/000000/monitor.png" alt="Deployed Site" id="project-icon"/></a> 
-              </p>
-              <p id="topics">
-                    ({props.topics})
-                </p>
-        </div>
-      </div>
-    );
+function ProjectCard(props) {
+  return (
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" alt={props.name} src={props.image} />
+      <Card.Body>
+        <Card.Title>{props.name}</Card.Title>
+        <Card.Text>
+          {props.topics}
+        </Card.Text>
+        <a href={props.github}><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Repository" id="project-icon" /></a>
+        <a href={props.deploy}><img src="https://img.icons8.com/color/48/000000/monitor.png" alt="Deployed Site" id="project-icon" /></a>
+      </Card.Body>
+    </Card>
+  );
 }
-  
-  export default Card;
+
+export default ProjectCard;
