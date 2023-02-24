@@ -1,4 +1,4 @@
-import React , {useState} from "react";
+import React, { useState } from "react";
 import Navigation from './components/Navigation';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -15,8 +15,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Navigation/>
-      <AboutMe/>
+      <Navigation setPage={setPage} currentPageState={currentPageState} />
+      <CurrentPage currentPageState={currentPageState} />
       <Footer />
     </div>
   );
