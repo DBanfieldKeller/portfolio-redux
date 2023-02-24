@@ -8,15 +8,17 @@ import ProjectCard from "./Card";
 function Projects() {
     const cards = source.map(projectInfo => {
         return(
+            <Col>
             <ProjectCard
                 {...projectInfo}
             />
+            </Col>
         )
     })
     console.log(cards)
     return(
         <Container fluid="sm">
-            <Row xs={1}>
+            <Row xxl="3">
             {cards}
             </Row>
         </Container>
