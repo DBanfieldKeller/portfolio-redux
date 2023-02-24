@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 // Individual Card build-out using props
 function ProjectCard(props) {
   return (
-    <Card style={{ width: '20rem' }}>
+    <Card style={{ width: '22rem' }}>
       <Card.Img variant="top" alt={props.name} src={props.image} />
       <Card.Body>
         <Card.Title>{props.name}</Card.Title>

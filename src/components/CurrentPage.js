@@ -1,5 +1,5 @@
 import React from "react";
-import AboutMe from "./AboutMe";
+import AboutMe from "./AboutMe/AboutMe";
 import ContactMe from "./ContactMe";
 import Projects from "./Projects";
 import Resume from "./Resume";

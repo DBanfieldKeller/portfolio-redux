@@ -7,19 +7,19 @@ import ProjectCard from "./Card";
 
 function Projects() {
     const cards = source.map(projectInfo => {
-        return(
+        return (
             <Col>
-            <ProjectCard
-                {...projectInfo}
-            />
+                <ProjectCard
+                    {...projectInfo}
+                />
             </Col>
         )
     })
     console.log(cards)
-    return(
-        <Container fluid="sm">
-            <Row xxl="3">
-            {cards}
+    return (
+        <Container>
+            <Row>
+                {cards}
             </Row>
         </Container>
     )
