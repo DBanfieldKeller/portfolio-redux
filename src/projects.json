@@ -25,11 +25,11 @@
     },
     {
     "id": 4,
-    "name": "Weather Dashboard",
+    "name": "Weather Portal",
     "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/weatherdash.png",
-    "github": "https://github.com/DBanfieldKeller/Weather-Dashboard",
-    "deploy": "https://dbanfieldkeller.github.io/Weather-Dashboard/",
-    "topics": "Javascript, jQuery, HTML, Bootstrap, Moment, API"
+    "github": "https://github.com/DBanfieldKeller/weather-portal",
+    "deploy": "https://dbanfieldkeller.github.io/weather-portal/",
+    "topics": "Javascript, node-js, React, React-Bootstrap, AWS, API, Axios"
     },
     {
     "id": 5,
