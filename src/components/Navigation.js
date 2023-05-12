@@ -10,7 +10,7 @@ function Navigation(props) {
     <>
       <Navbar key='md' bg="light" expand='md' className="mb-3">
         <Container fluid>
-          <Navbar.Brand href="#">Full Stack Web Developer</Navbar.Brand>
+          <Navbar.Brand>Full Stack Web Developer</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-$'md'`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-$'md'`}

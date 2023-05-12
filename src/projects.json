@@ -5,23 +5,22 @@
     "image": "https://raw.githubusercontent.com/DBanfieldKeller/portfolio-redux/main/src/assets/weather-portal.PNG",
     "github": "https://github.com/DBanfieldKeller/weather-portal",
     "deploy": "https://dbanfieldkeller.github.io/weather-portal/",
-    "topics": "Javascript, node-js, React, React-Bootstrap, AWS, API, Axios"
+    "topics": "Javascript, Node.js, React, React-Bootstrap, AWS, API, Axios"
     },  
-  {
-    "id": 1,
-    "name": "Virtual Escape Room App",
-    "image": "https://raw.githubusercontent.com/DBanfieldKeller/portfolio-redux/main/src/assets/escape-room.PNG",
-    "github": "https://github.com/DBanfieldKeller/virtual-escape-room",
-    "deploy": "https://virtual-escape-room-mikeyboxx.herokuapp.com/",
-    "topics": "MERN, node-js, express-js, mongoDB, react, react-app-bootstrap, graphQL, state"
-    },
     {
     "id": 2,
-    "name": "Restaurant Menu App",
+    "name": "Login Service (See Weather Portal for live deployment)",
     "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/lucariosscreenshot.jpg",
-    "github": "https://github.com/DBanfieldKeller/restaurant-menu",
-    "deploy": "https://xyz-restaurant.herokuapp.com/",
-    "topics": "HTML, CSS, Javascript, Handlebars, node-js, express-js, MySQL, Sequelize, Heroku"
+    "github": "https://github.com/DBanfieldKeller/login-service",
+    "topics": "Javascript, Node.js, AWS Lambda, DynamoDB, JWT, bcrypt"
+    },
+    {
+      "id": 6,
+      "name": "Social Network API",
+      "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/workdayscheduler.png",
+      "github": "https://github.com/DBanfieldKeller/social-network-api",
+      "deploy": "https://drive.google.com/file/d/1DC5efcXePgqXpymFfG0IfQpiTcPAfiy2/view",
+      "topics": "HTML, Javascript, Bootstrap, CSS, jQuery, Moment"
     },
     {
     "id": 3,
@@ -29,17 +28,8 @@
     "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/texteditorPWA.PNG",
     "github": "https://github.com/DBanfieldKeller/pwa-party",
     "deploy": "https://mysterious-badlands-95263.herokuapp.com/",
-    "topics": "node-js, express-js Babel, Webpack, PWA, IndexDB, Heroku"
+    "topics": "Node.js, Express.js, Babel, Webpack, PWA, IndexDB, Heroku"
     },
-
-    {
-    "id": 5,
-    "name": "Javascript Quiz Game",
-    "image": "https://github.com/DBanfieldKeller/react-portfolio/raw/main/src/assets/quizgame.png",
-    "github": "https://github.com/DBanfieldKeller/Quiz-Game",
-    "deploy": "https://dbanfieldkeller.github.io/Quiz-Game/",
-    "topics": "HTML, CSS, Javascript"
-      },
     {
     "id": 6,
     "name": "Work Day Scheduler",
