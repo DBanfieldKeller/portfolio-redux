@@ -26,7 +26,7 @@
     {
     "id": 4,
     "name": "Weather Portal",
-    "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/weatherdash.png",
+    "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/weather-portal.png",
     "github": "https://github.com/DBanfieldKeller/weather-portal",
     "deploy": "https://dbanfieldkeller.github.io/weather-portal/",
     "topics": "Javascript, node-js, React, React-Bootstrap, AWS, API, Axios"
