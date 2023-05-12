@@ -3,7 +3,7 @@ import source from "../projects.json";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ProjectCard from "./Card";
+import ProjectCard from "./ProjectCard/Card";
 
 function Projects() {
     const cards = source.map(projectInfo => {

@@ -34,16 +34,6 @@ function Navigation(props) {
                 }}>
                   Projects
                 </Nav.Link>
-                <Nav.Link onClick={(e)=>{
-                  props.setPage('ContactMe');
-                }}>
-                  Contact Me
-                  </Nav.Link>
-                <Nav.Link onClick={(e)=>{
-                  props.setPage('Resume');
-                }}>
-                  Resume
-                </Nav.Link>
                 <NavDropdown
                   title="Quick Links"
                   id={`offcanvasNavbarDropdown-expand-$'md'`}

@@ -1,11 +1,12 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import "./style.css"
 
 // Individual Card build-out using props
 function ProjectCard(props) {
   return (
     <Card style={{ width: '22rem' }}>
-      <Card.Img variant="top" alt={props.name} src={props.image} />
+      <Card.Img className="cardImg" variant="top" alt={props.name} src={props.image} />
       <Card.Body>
         <Card.Title>{props.name}</Card.Title>
         <Card.Text>
