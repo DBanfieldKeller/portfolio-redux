@@ -9,7 +9,7 @@ function AboutMe() {
             <Hero />
             <div className="about--me">
                 <h2>About Me</h2>
-                <p>I am a full stack web developer with experience in MERN, Javascript, HTML, and CSS. Examples of my work are on display in the projects section of this website. I graduated from UC Berkeley in 2016 with a BA in Japanese and Linguistics. Since that time I have worked for Japanese companies and became proficient working cross Japanese and American business cultures. </p>
+                <p>I am a full stack web developer with experience in the MERN stack, Javascript, and AWS cloud services. Examples of my work are on display in the projects section of this website. I graduated from UC Berkeley in 2016 with a BA in Japanese and Linguistics. I am profiecient across American and Japanese business cultures, owing to my experience working for Japanese companies across myriad industries. I look forward to new challenges as I continue to hone my programming skills. </p>
             </div>
         </div>
     )

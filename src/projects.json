@@ -6,37 +6,36 @@
     "github": "https://github.com/DBanfieldKeller/weather-portal",
     "deploy": "https://dbanfieldkeller.github.io/weather-portal/",
     "topics": "Javascript, Node.js, React, React-Bootstrap, AWS, API, Axios"
-    },  
-    {
+  },
+  {
     "id": 2,
     "name": "Login Service (See Weather Portal for live deployment)",
-    "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/lucariosscreenshot.jpg",
+    "image": "https://raw.githubusercontent.com/DBanfieldKeller/portfolio-redux/main/src/assets/login-service.PNG",
     "github": "https://github.com/DBanfieldKeller/login-service",
     "topics": "Javascript, Node.js, AWS Lambda, DynamoDB, JWT, bcrypt"
-    },
-    {
-      "id": 6,
-      "name": "Social Network API",
-      "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/workdayscheduler.png",
-      "github": "https://github.com/DBanfieldKeller/social-network-api",
-      "deploy": "https://drive.google.com/file/d/1DC5efcXePgqXpymFfG0IfQpiTcPAfiy2/view",
-      "topics": "HTML, Javascript, Bootstrap, CSS, jQuery, Moment"
-    },
-    {
+  },
+  {
+    "id": 1,
+    "name": "Social Network API",
+    "image": "https://raw.githubusercontent.com/DBanfieldKeller/portfolio-redux/main/src/assets/social-api.PNG",
+    "github": "https://github.com/DBanfieldKeller/social-network-api",
+    "deploy": "https://drive.google.com/file/d/1DC5efcXePgqXpymFfG0IfQpiTcPAfiy2/view",
+    "topics": "Javascript, Node.js, Express.js, MongoDB, Mongoose"
+  },
+  {
     "id": 3,
     "name": "Text Editor PWA",
     "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/texteditorPWA.PNG",
     "github": "https://github.com/DBanfieldKeller/pwa-party",
     "deploy": "https://mysterious-badlands-95263.herokuapp.com/",
     "topics": "Node.js, Express.js, Babel, Webpack, PWA, IndexDB, Heroku"
-    },
-    {
+  },
+  {
     "id": 6,
     "name": "Work Day Scheduler",
     "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/workdayscheduler.png",
     "github": "https://github.com/DBanfieldKeller/work-day-scheduler",
     "deploy": "https://dbanfieldkeller.github.io/work-day-scheduler/",
     "topics": "HTML, Javascript, Bootstrap, CSS, jQuery, Moment"
-    }
-  
+  }
 ]
