@@ -1,8 +1,16 @@
 [
-    {
+  {
+    "id": 4,
+    "name": "Weather Portal",
+    "image": "https://raw.githubusercontent.com/DBanfieldKeller/portfolio-redux/main/src/assets/weather-portal.PNG",
+    "github": "https://github.com/DBanfieldKeller/weather-portal",
+    "deploy": "https://dbanfieldkeller.github.io/weather-portal/",
+    "topics": "Javascript, node-js, React, React-Bootstrap, AWS, API, Axios"
+    },  
+  {
     "id": 1,
     "name": "Virtual Escape Room App",
-    "image": "https://raw.githubusercontent.com/DBanfieldKeller/react-portfolio/main/src/assets/escape.PNG",
+    "image": "https://raw.githubusercontent.com/DBanfieldKeller/portfolio-redux/main/src/assets/escape-room.PNG",
     "github": "https://github.com/DBanfieldKeller/virtual-escape-room",
     "deploy": "https://virtual-escape-room-mikeyboxx.herokuapp.com/",
     "topics": "MERN, node-js, express-js, mongoDB, react, react-app-bootstrap, graphQL, state"
@@ -23,14 +31,7 @@
     "deploy": "https://mysterious-badlands-95263.herokuapp.com/",
     "topics": "node-js, express-js Babel, Webpack, PWA, IndexDB, Heroku"
     },
-    {
-    "id": 4,
-    "name": "Weather Portal",
-    "image": "https://raw.githubusercontent.com/DBanfieldKeller/portfolio-redux/main/src/assets/weather-portal.PNG",
-    "github": "https://github.com/DBanfieldKeller/weather-portal",
-    "deploy": "https://dbanfieldkeller.github.io/weather-portal/",
-    "topics": "Javascript, node-js, React, React-Bootstrap, AWS, API, Axios"
-    },
+
     {
     "id": 5,
     "name": "Javascript Quiz Game",
