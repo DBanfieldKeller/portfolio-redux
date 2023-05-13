@@ -1,7 +1,7 @@
 import React from "react";
 import AboutMe from "./AboutMe/AboutMe";
 import ContactMe from "./ContactMe";
-import Projects from "./Projects";
+import Projects from "./Projects/Projects";
 import Resume from "./Resume";
 
 export default function CurrentPage(props) {

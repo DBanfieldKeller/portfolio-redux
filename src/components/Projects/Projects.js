@@ -1,9 +1,10 @@
 import React from "react";
-import source from "../projects.json";
+import source from "../../projects.json";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ProjectCard from "./ProjectCard/Card";
+import ProjectCard from "../ProjectCard/Card";
+import "./style.css";
 
 function Projects() {
     const cards = source.map(projectInfo => {
@@ -17,7 +18,7 @@ function Projects() {
     })
     console.log(cards)
     return (
-        <Container>
+        <Container className="card-container">
             <Row xs={1} md={2}>
                 {cards}
             </Row>
