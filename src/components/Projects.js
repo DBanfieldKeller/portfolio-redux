@@ -18,7 +18,7 @@ function Projects() {
     console.log(cards)
     return (
         <Container>
-            <Row>
+            <Row xs={1} md={2}>
                 {cards}
             </Row>
         </Container>

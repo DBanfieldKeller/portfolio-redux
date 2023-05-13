@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "name": "Login Service (See Weather Portal for live deployment)",
+    "name": "Login/User Data Microservice",
     "image": "https://raw.githubusercontent.com/DBanfieldKeller/portfolio-redux/main/src/assets/login-service.PNG",
     "github": "https://github.com/DBanfieldKeller/login-service",
     "topics": "Javascript, Node.js, AWS Lambda, DynamoDB, JWT, bcrypt"
