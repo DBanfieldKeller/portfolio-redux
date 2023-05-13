@@ -19,7 +19,7 @@ function Navigation(props) {
           >
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-$'md'`}>
-                Offcanvas
+                Navigation
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
